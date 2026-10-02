@@ -1,0 +1,36 @@
+# ---- compiled binaries and executables ----
+nostr-relay
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# ---- test binaries and coverage artifacts ----
+*.test
+*.out
+coverage.txt
+
+# ---- SQLite databases (runtime data, never commit) ----
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# ---- local environment files ----
+.env
+.env.*
+
+# ---- OS-specific metadata ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- editors and IDEs ----
+.idea/
+.vscode/
+*.swp
